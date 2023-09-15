@@ -21,7 +21,7 @@ class EmployeeAddRequest extends FormRequest
             'phone' => 'required|string|max:255',
             'address' => 'required|string|max:255',
             'position'=> 'required|string|max:255',
-            'salary'=> 'required|number',
+            'salary'=> 'required|numeric',
         ];
     }
 
@@ -51,7 +51,7 @@ class EmployeeAddRequest extends FormRequest
             'position.max' => 'The position field cannot exceed 255 characters.',
 
             'salary.required' => 'The salary field is required.',
-            'salary.number' => 'The salary field must be a number.'
+            'salary.numeric' => 'The salary field must be a number.'
         ];
     }
 }
