@@ -4,7 +4,7 @@
 3. Open the project in your favorite IDE, then open a terminal instance within it. 
 4. Inside the terminal run the following command -> php artisan migrate --seed (or php artisan migrate:fresh --seed)
 5. Run the command php artisan serve
-6. Turn on the Front-end client with npm run dev
+6. Turn on the Front-end client with npm run dev inside its IDE terminal
 7. Go to http://localhost:3000 in your browser
 8. Enjoy the experience ;)
 
