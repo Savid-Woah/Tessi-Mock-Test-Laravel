@@ -1,7 +1,8 @@
-### Make Sure to put the project folder inside xampp htdocs folder since it uses xampp client
+### Follow these steps to run the App 
+Make Sure to put the project folder inside xampp htdocs folder since it uses xampp client
 Access localhost in your browser, then go to PhpMyAdmin and create a Database called tessi_mock
 Inside the IDE's terminal run the following command -> php artisan migrate --seed or php artisan migrate:fresh --seed
-Finally run php artisan serve, then turn on the front-end client, go to http:localhost:3000 and enjoy the experience ;)
+Finally run php artisan serve, then turn on the front-end client, go to http://localhost:3000 and enjoy the experience ;)
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
